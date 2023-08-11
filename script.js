@@ -33,7 +33,10 @@ async function getQuickNodeAccountBalance(account){
     const balance = await getBalanceByAccount(web3QuickNode, account);
     return balance;
 }
-
+/**
+ * 
+ * 20LINK transaction: https://sepolia.etherscan.io/tx/0x380e90bfbb257d695f0b63395c0f2f8ceb333b34aaf4e4dd2926e6e394be5ece
+ */
 
 async function main(){
 
